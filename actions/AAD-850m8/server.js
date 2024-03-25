@@ -1,4 +1,4 @@
-function(properties, context) {
+async function(properties, context) {
 
     const after = properties.current_url.substring(properties.current_url.indexOf('?') + 1);
     const params = after.split('&');
